@@ -1,3 +1,16 @@
+:root {
+    --cor-fundo-primaria: #ffffff;
+    --cor-fundo-secundaria: #f5f5f5;
+    --cor-fundo-terciaria: #000000;
+
+    --cor-botao-primaria: #8F0101;
+    --cor-botao-secundaria: #B81515;
+
+    --cor-texto-primaria: #222222;
+    --cor-texto-secundaria: #ffffff;
+
+}
+
 * {
     margin: 0;
     padding: 0;
