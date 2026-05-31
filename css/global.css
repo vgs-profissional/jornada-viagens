@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(/curso_responsividade/jornada-viagens/fontes/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --cor-fundo-primaria: #ffffff;
+  --cor-fundo-secundaria: #f5f5f5;
+  --cor-fundo-terciaria: #000000;
+
+  --cor-primaria: #8f0101;
+  --cor-secundaria: #b81515;
+
+  --cor-texto-primaria: #222222;
+  --cor-texto-secundaria: #ffffff;
+
+  --peso-titulo: 700;
+  --peso-menu: 500;
+  --peso-paragrafos: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+}
+
+footer.rodape {
+  background-color: #000000;
+  font-family: "Montserrat";
+}
