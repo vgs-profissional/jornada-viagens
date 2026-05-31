@@ -1,0 +1,16 @@
+header {
+  background-color: var(--cor-fundo-terciaria);
+
+  width: 100vw;
+  height: 138px;
+}
+
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+
+  padding: 37px 0 37px 48px;
+}
+
+
