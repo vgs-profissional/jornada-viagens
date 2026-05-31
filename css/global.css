@@ -21,10 +21,20 @@
   --peso-paragrafos: 400;
 }
 
-* {
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
   margin: 0;
   padding: 0;
-  display: border-box;
+  display: inline-block;
 }
 
 footer.rodape {
