@@ -36,6 +36,9 @@ button {
   padding: 0;
   display: border-box;
 }
+body {
+  font-family: "Montserrat";
+}
 
 footer.rodape {
   background-color: #000000;

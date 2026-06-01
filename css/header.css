@@ -6,6 +6,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 38px 48px;
+  position: relative;
 }
 
 .logo {
@@ -14,10 +15,30 @@ header {
   height: 64px;
 }
 
+/* Input do tipo checkbox, quando estiver checado, afeta o irmão(~) nav e desse jeito: */
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  background-color: var(--cor-fundo-terciaria);
 }
 
 nav {
   display: none;
+}
+
+.lista-links {
+  list-style: none;
+}
+
+.item-lista {
+  margin: 16px 0;
+}
+
+.links-menu {
+  text-decoration: none;
+  color: var(--cor-texto-secundaria);
+  font-size: 20px;
 }
