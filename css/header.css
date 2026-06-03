@@ -1,16 +1,95 @@
 header {
   background-color: var(--cor-fundo-terciaria);
 
-  width: 100vw;
-  height: 138px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 48px;
+  position: relative;
 }
 
-.logo {
+.link-logo {
   display: inline-block;
   width: 68px;
   height: 64px;
-
-  padding: 37px 0 37px 48px;
 }
 
+.img-desktop {
+  display: none;
+}
 
+/* Input do tipo checkbox, quando estiver checado, afeta o irmão(~) nav e desse jeito: */
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  background-color: var(--cor-fundo-terciaria);
+}
+
+nav {
+  display: none;
+}
+
+.lista-links {
+  list-style: none;
+}
+
+.item-lista {
+  margin: 16px 0;
+}
+
+.links-menu {
+  text-decoration: none;
+  color: var(--cor-texto-secundaria);
+  font-size: 24px;
+  font-weight: var(--peso-menu);
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    width: 467px;
+  }
+
+  .menu > label {
+    display: none;
+  }
+
+  .menu > nav {
+    display: block;
+  }
+
+  .lista-links {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .item-lista {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-desktop {
+    display: block;
+    max-width: 260px;
+    max-height: 64px;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .item-lista >a:hover {
+    color: var(--cor-secundaria);
+  }
+}
+
+@media screen and (min-width: 1870px) {
+  header {
+    padding: 38px 160px;
+  }
+}
