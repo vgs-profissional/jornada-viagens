@@ -9,10 +9,14 @@ header {
   position: relative;
 }
 
-.logo {
+.link-logo {
   display: inline-block;
   width: 68px;
   height: 64px;
+}
+
+.img-desktop {
+  display: none;
 }
 
 /* Input do tipo checkbox, quando estiver checado, afeta o irmão(~) nav e desse jeito: */
@@ -45,15 +49,15 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-  .nav-menu {
+  .menu {
     width: 467px;
   }
 
-  .nav-menu > label {
+  .menu > label {
     display: none;
   }
 
-  .nav-menu > nav {
+  .menu > nav {
     display: block;
   }
 
@@ -67,5 +71,25 @@ nav {
 
   .item-lista {
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-desktop {
+    display: block;
+    max-width: 260px;
+    max-height: 64px;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .item-lista >a:hover {
+    color: var(--cor-secundaria);
+  }
+}
+
+@media screen and (min-width: 1870px) {
+  header {
+    padding: 38px 160px;
   }
 }
