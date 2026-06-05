@@ -8,8 +8,10 @@
 
 .texto-hero {
   font-weight: var(--peso-paragrafos);
-  padding: 88px 24px;
   text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 88px 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -22,6 +24,8 @@
 
   .texto-hero {
     padding: 88px 60px;
+    line-height: 1.5;
+    font-size: 32px;
   }
 }
 
@@ -34,6 +38,15 @@
   }
 
   .texto-hero {
-    padding: 104px 90px;
+    padding: 104px 120px;
+    line-height: 1.5;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .texto-hero {
+    padding: 104px 160px;
   }
 }
