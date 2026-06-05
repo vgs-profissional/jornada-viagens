@@ -1,0 +1,52 @@
+.imagem-hero {
+  height: 400px;
+  width: 100%;
+  background: url(../img/Banner_homepage.png) no-repeat;
+  /* CSS tem frescura e não entende pasta com espaço no nome, tira os espaços pra não dar BO */
+  background-size: cover;
+}
+
+.texto-hero {
+  font-weight: var(--peso-paragrafos);
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 88px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .imagem-hero {
+    height: 620px;
+    width: 100%;
+    background: url(../img/hero_tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .texto-hero {
+    padding: 88px 60px;
+    line-height: 1.5;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .imagem-hero {
+    height: 620px;
+    width: 100%;
+    background: url(../img/hero_desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .texto-hero {
+    padding: 104px 120px;
+    line-height: 1.5;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .texto-hero {
+    padding: 104px 160px;
+  }
+}

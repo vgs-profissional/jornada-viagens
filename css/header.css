@@ -75,6 +75,9 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
+  header {
+    padding: 38px 120px;
+  }
   .img-desktop {
     display: block;
     max-width: 260px;
@@ -83,7 +86,7 @@ nav {
   .img-mobile {
     display: none;
   }
-  .item-lista >a:hover {
+  .item-lista > a:hover {
     color: var(--cor-secundaria);
   }
 }
