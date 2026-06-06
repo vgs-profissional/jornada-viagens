@@ -12,6 +12,7 @@
   font-size: 20px;
   line-height: 32px;
   padding: 88px 24px;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -26,6 +27,7 @@
     padding: 88px 60px;
     line-height: 1.5;
     font-size: 32px;
+    margin: 0;
   }
 }
 
@@ -42,11 +44,13 @@
     line-height: 1.5;
     font-size: 32px;
     text-align: center;
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .texto-hero {
     padding: 104px 160px;
+    margin: 0;
   }
 }

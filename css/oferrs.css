@@ -1,0 +1,43 @@
+.card {
+    color: var(--cor-texto-secundaria);
+    background-color: black;
+    width: 312px;
+    height: 288px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 16px 24px;
+    box-sizing: border-box;
+}
+
+.card>header {
+    display: block;
+    position: static;
+    text-align: center;
+}
+
+.card>header>p {
+    font-weight: var(--peso-paragrafos);
+    font-size: 20px;
+}
+
+.card>header>h3 {
+    font-weight: var(--peso-titulo);
+    font-size: 40px;
+    margin: 8px 0 0;
+}
+
+.card>header>h3>span {
+    display: inline-block;
+    margin: 24px 0 0 0;
+    font-size: 32px;
+}
+
+.card>footer>a {
+    background-color: var(--cor-secundaria);
+
+    text-decoration: none;
+    color: var(--cor-texto-secundaria);
+    font-weight: var(--peso-titulo);
+    font-size: 20px;
+    width: 132px;
+}
