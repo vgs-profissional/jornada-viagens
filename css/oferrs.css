@@ -4,7 +4,6 @@
 
 .card {
     color: var(--cor-texto-secundaria);
-    background-image: url(../img/card-japao.jpg);
     background-size: cover;
     width: 312px;
     height: 288px;
@@ -12,6 +11,31 @@
     text-align: center;
     padding: 24px 16px;
     box-sizing: border-box;
+}
+
+.japao {
+    background-image: url(../img/card-japao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.san-andreas {
+    background-image: url(../img/card-san-andreas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.paraiba {
+    background-image: url(../img/card-paraiba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.manaus {
+    background-image: url(../img/card-manaus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card>header {
