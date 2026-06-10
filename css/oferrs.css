@@ -21,19 +21,20 @@
     background-image: url(../img/card-japao.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 24px;
 }
 
 .san-andreas {
     background-image: url(../img/card-san-andreas.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .paraiba {
-    background-image: url(../img/card-paraiba.jpg);
+    background-image: url(../img/paraiba.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 24px;
 }
 
 .manaus {
@@ -73,6 +74,12 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    /* Divide os cards em 2 colunas pra não haver 3 alinhados */
+    .div-cards {
+        display: flex;
+        gap: 24px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -103,7 +110,7 @@
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1820px) {
     .cards-ofertas {
         width: 1250px;
         margin: 0 auto;
