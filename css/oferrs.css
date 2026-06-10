@@ -1,0 +1,118 @@
+.cards-ofertas {
+    padding: 32px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.card {
+    color: var(--cor-texto-secundaria);
+    background-size: cover;
+    width: 312px;
+    height: 288px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 24px 16px;
+    box-sizing: border-box;
+}
+
+.japao {
+    background-image: url(../img/card-japao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+
+.san-andreas {
+    background-image: url(../img/card-san-andreas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paraiba {
+    background-image: url(../img/paraiba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+
+.manaus {
+    background-image: url(../img/card-manaus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card>header {
+    display: block;
+    position: static;
+    text-align: center;
+    padding: 0;
+    background-color: transparent;
+}
+
+.card>header>p {
+    font-weight: var(--peso-paragrafos);
+    font-size: 20px;
+}
+
+.card>header>h3 {
+    font-weight: var(--peso-titulo);
+    font-size: 40px;
+    margin: 8px 0 0;
+}
+
+.card>header>h3>span {
+    display: inline-block;
+    margin: 24px 0;
+    font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .cards-ofertas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Divide os cards em 2 colunas pra não haver 3 alinhados */
+    .div-cards {
+        display: flex;
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cards-ofertas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 420px;
+        height: 308px;
+    }
+
+    .card>header>h3 {
+        font-size: 48px;
+    }
+
+    .card>header>span {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 588px;
+        height: 308px;
+    }
+}
+
+@media screen and (min-width: 1820px) {
+    .cards-ofertas {
+        width: 1250px;
+        margin: 0 auto;
+    }
+}
