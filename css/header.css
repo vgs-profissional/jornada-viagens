@@ -1,4 +1,4 @@
-header {
+.cabecalho {
   background-color: var(--cor-fundo-terciaria);
 
   display: flex;
@@ -20,7 +20,7 @@ header {
 }
 
 /* Input do tipo checkbox, quando estiver checado, afeta o irmão(~) nav e desse jeito: */
-input[type="checkbox"]:checked ~ nav {
+input[type="checkbox"]:checked~nav {
   display: block;
   position: absolute;
   top: 100%;
@@ -53,11 +53,11 @@ nav {
     width: 467px;
   }
 
-  .menu > label {
+  .menu>label {
     display: none;
   }
 
-  .menu > nav {
+  .menu>nav {
     display: block;
   }
 
@@ -75,24 +75,27 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .cabecalho {
     padding: 38px 120px;
   }
+
   .img-desktop {
     display: block;
     max-width: 260px;
     max-height: 64px;
   }
+
   .img-mobile {
     display: none;
   }
-  .item-lista > a:hover {
+
+  .item-lista>a:hover {
     color: var(--cor-secundaria);
   }
 }
 
 @media screen and (min-width: 1870px) {
-  header {
+  .cabecalho {
     padding: 38px 160px;
   }
 }
