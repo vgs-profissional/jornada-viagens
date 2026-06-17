@@ -1,0 +1,146 @@
+.destinos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.destino-artigos {
+    padding: 30px 24px 40px 24px;
+}
+
+.primeiro {
+    /* width: 312px; */
+    height: 360px;
+    background: url(../img/Tokyo-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.segundo {
+    /* width: 312px; */
+    height: 360px;
+    background: url(../img/Osaka-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+header>h4 {
+    font-size: 28px;
+    font-weight: var(--peso-titulo);
+    padding: 24px 0;
+    margin: 0;
+}
+
+.destino-artigos>p {
+    font-size: 20px;
+    font-weight: var(--peso-paragrafos);
+    line-height: 32px;
+
+    padding: 0 0 24px 0;
+
+}
+
+.footer-destino {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-destino>a {
+    font-size: 20px;
+    color: var(--cor-texto-secundaria);
+    background-color: var(--cor-secundaria);
+    font-weight: var(--peso-titulo);
+    text-decoration: none;
+    line-height: 61px;
+
+    border-radius: 8px;
+
+    display: block;
+    width: 377px;
+    height: 64px;
+}
+
+@media screen and (min-width:768px) {
+    .div-linha {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .destino-artigos {
+        padding: 0px 60px 0px 60px;
+    }
+
+    .primeiro {
+        width: 648px;
+        height: 452px;
+        background-image: url(../img/Tokyo-tablet.jpg);
+        background-size: cover;
+    }
+
+    .segundo {
+        width: 648px;
+        height: 452px;
+        background-image: url(../img/Osaka-tablet.jpg);
+        background-size: cover;
+    }
+
+    .footer-destino {
+        flex-direction: column;
+    }
+
+    .footer-destino>a {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1102px) {
+
+    .primeiro,
+    .segundo {
+        width: 980px;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .div-linha {
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .destino-artigos {
+        padding: 0;
+        width: 440px;
+    }
+
+    .primeiro,
+    .segundo {
+        width: 420px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .div-linha {
+        gap: 24px;
+        padding: 0 120px;
+    }
+
+    .destino-artigos {
+        width: 588px;
+        padding: 0;
+    }
+
+    .primeiro {
+        width: 588px;
+        background-size: cover;
+        background-image: url(../img/Tokyo-desktop.jpg);
+    }
+
+    .segundo {
+        width: 588px;
+        background-size: cover;
+        background-image: url(../img/Osaka-desktop.jpg);
+    }
+}
