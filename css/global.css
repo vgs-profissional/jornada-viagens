@@ -42,11 +42,27 @@ body {
   color: var(--cor-texto-primaria);
 }
 
+section {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+}
+
+.titulo-secao {
+  padding: 88px 0 32px 0;
+  width: 280px;
+  margin: 0 auto;
+}
+
 .titulo-secao>h2 {
+  padding: 0 0 16px 0;
+  margin: 0;
   font-size: 28px;
   font-weight: var(--peso-titulo);
   text-align: center;
-  margin: 88px 0 32px 0;
 }
 
 .divisoria {
@@ -65,7 +81,7 @@ body {
   line-height: 64px;
 
   background-color: var(--cor-secundaria);
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   border-radius: 8px;
   display: inline-block;
@@ -81,15 +97,19 @@ footer.rodape {
 }
 
 @media screen and (min-width: 768px) {
+  section {
+    width: 648px;
+  }
+
   .titulo-secao {
     padding: 88px 0 32px 0;
+    width: 100%;
   }
 
   .titulo-secao>h2 {
     font-size: 32px;
     font-weight: var(--peso-titulo);
     text-align: center;
-    padding: 0 200px 16px 200px;
     margin: 0;
   }
 
@@ -104,11 +124,14 @@ footer.rodape {
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    width: 900px;
+  }
+
   .titulo-secao>h2 {
     font-size: 32px;
     font-weight: var(--peso-titulo);
     text-align: center;
-    padding: 0 350px 16px 350px;
     margin: 0;
   }
 
@@ -122,11 +145,14 @@ footer.rodape {
 }
 
 @media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
+  }
+
   .titulo-secao>h2 {
     font-size: 32px;
     font-weight: var(--peso-titulo);
     text-align: center;
-    padding: 0 560px 16px 560px;
     margin: 0;
   }
 
