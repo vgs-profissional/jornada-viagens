@@ -73,6 +73,18 @@ section {
   border: none;
 }
 
+.titulo-conteudo {
+  font-size: 28px;
+  font-weight: var(--peso-titulo);
+}
+
+.texto-conteudo {
+  line-height: 32px;
+  font-size: 20px;
+  font-weight: var(--peso-paragrafos);
+  color: var(--cor-texto-primaria);
+}
+
 .botao {
   text-decoration: none;
   color: var(--cor-texto-secundaria);

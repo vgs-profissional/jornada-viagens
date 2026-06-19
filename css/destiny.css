@@ -23,19 +23,13 @@
 }
 
 header>h4 {
-    font-size: 28px;
-    font-weight: var(--peso-titulo);
+    line-height: 100%;
     padding: 24px 0;
     margin: 0;
 }
 
 .destino-artigos>p {
-    font-size: 20px;
-    font-weight: var(--peso-paragrafos);
-    line-height: 32px;
-
     padding: 0 0 24px 0;
-
 }
 
 .footer-destino {
