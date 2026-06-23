@@ -1,0 +1,83 @@
+.conteudo-texto>article>h3 {
+    margin: 0;
+}
+
+.conteudo-texto>article>p {
+    padding: 24px 0;
+}
+
+.conteudo-imagem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "mala passaporte"
+        "pessoas pessoas";
+    gap: 24px
+}
+
+.mala {
+    background-image: url(../img/Montagem-japão-1.png);
+    height: 254px;
+    background-size: cover;
+    background-position: center;
+
+    grid-area: mala;
+}
+
+.passaporte {
+    background-image: url(../img/Montagem-japão-2.png);
+    height: 254px;
+    background-size: cover;
+    background-position: center;
+
+    grid-area: passaporte;
+}
+
+.pessoas {
+    background-image: url(../img/Montagem-japão-3.png);
+    /* width: 312px; */
+    height: 182px;
+    background-size: cover;
+    background-position: center;
+    grid-area: pessoas;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .mala {
+        background-image: url(../img/Montagem-japão-1-tablet.png);
+        height: 254px;
+    }
+
+    .passaporte {
+        background-image: url(../img/Montagem-japão-2-tablet.png);
+        height: 254px;
+    }
+
+    .pessoas {
+        background-image: url(../img/Montagem-japão-3-tablet.png);
+        height: 182px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-flex {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        padding: 32px 0 0 0;
+    }
+
+    .conteudo-texto {
+        width: 384px;
+    }
+
+    .conteudo-texto>article>h3 {
+        width: 285px;
+    }
+
+    .conteudo-imagem {
+        width: 790px;
+    }
+}
