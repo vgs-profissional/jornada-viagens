@@ -1,0 +1,44 @@
+.meio {
+    padding: 32px 0;
+}
+
+.comentario-cliente {
+    padding: 0 0 8px 0;
+}
+
+.testemunho {
+    font-size: 16px;
+    font-weight: var(--peso-paragrafos);
+    line-height: 28px;
+}
+
+.perfil {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 24px;
+}
+
+.perfil>img {
+    width: 86px;
+    height: 86px;
+}
+
+.usuario-nome {
+    font-size: 20px;
+    font-weight: var(--peso-titulo);
+    margin: 0;
+}
+
+.nota {
+    font-size: 32px;
+    color: var(--cor-secundaria);
+}
+
+@media screen and (min-width: 1440px) {
+    .div-flex {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+}
