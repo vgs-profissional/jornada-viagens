@@ -49,6 +49,7 @@
 @media screen and (min-width: 1440px) {
     .banner-rodape {
         background-image: url(../img/pre-rodape-desktop.png);
+        height: 600px;
     }
 
     .rodape {
