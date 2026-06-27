@@ -20,7 +20,7 @@
     height: 254px;
     background-size: cover;
     background-position: center;
-
+    background-repeat: no-repeat;
     grid-area: mala;
 }
 
@@ -29,7 +29,7 @@
     height: 254px;
     background-size: cover;
     background-position: center;
-
+    background-repeat: no-repeat;
     grid-area: passaporte;
 }
 
@@ -39,6 +39,7 @@
     height: 182px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     grid-area: pessoas;
 }
 
