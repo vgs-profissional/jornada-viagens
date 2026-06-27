@@ -1,3 +1,7 @@
+.depoimentos {
+    padding: 0 0 88px 0;
+}
+
 .meio {
     padding: 32px 0;
 }
@@ -36,6 +40,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .depoimentos {
+        padding: 0 0 104px 0;
+    }
+
     .div-flex {
         display: flex;
         align-items: center;

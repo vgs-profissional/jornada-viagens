@@ -35,3 +35,32 @@
 .link-redes {
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+    .banner-rodape {
+        background-image: url(../img/pre-rodape-tablet.png);
+    }
+
+    .texto-rodape {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner-rodape {
+        background-image: url(../img/pre-rodape-desktop.png);
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 52px 120px;
+    }
+
+    .div-horario {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
