@@ -1,0 +1,67 @@
+.hero-pacotes-img {
+    background-image: url(../img/hero-pacotes-mobile.png);
+    width: 100%;
+    height: 460px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artigo-hero {
+    color: var(--cor-texto-secundaria);
+    text-align: left;
+    padding: 65px 24px;
+}
+
+.artigo-hero>header>h1 {
+    font-size: 48px;
+    font-weight: var(--peso-titulo);
+}
+
+.divisoria-hero {
+    margin: 16px 0 32px 0;
+}
+
+.artigo-hero>p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--peso-paragrafos);
+    width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-pacotes-img {
+        background: url(../img/hero-pacotes-tablet.png) no-repeat;
+        height: 620px;
+        text-align: left;
+    }
+
+    .artigo-hero {
+        padding: 210px 69px 107px 120px;
+    }
+
+    .artigo-hero>p {
+        font-size: 32px;
+        width: 579px;
+        line-height: 150%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-pacotes-img {
+        background: url(../img/hero-pacotes-desktop.png) no-repeat;
+        text-align: left;
+    }
+
+    .artigo-hero {
+        padding: 158px 0px 158px 120px;
+    }
+
+    .artigo-hero>p {
+        font-size: 32px;
+        width: 579px;
+        line-height: 150%;
+    }
+
+}
