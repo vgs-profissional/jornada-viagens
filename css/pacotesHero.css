@@ -57,11 +57,4 @@
     .artigo-hero {
         padding: 158px 0px 158px 120px;
     }
-
-    .artigo-hero>p {
-        font-size: 32px;
-        width: 579px;
-        line-height: 150%;
-    }
-
 }
