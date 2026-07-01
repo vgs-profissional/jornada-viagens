@@ -1,0 +1,59 @@
+.valor-viagem {
+    font-size: 40px;
+    font-weight: var(--peso-titulo);
+    margin: 0;
+}
+
+.parcelas {
+    font-size: 28px;
+    font-weight: var(--peso-titulo);
+    margin: 0;
+    padding: 24px 0;
+
+}
+
+.parcelamento-texto {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0 0 24px 0;
+
+}
+
+.botao {
+    width: 312px;
+}
+
+.grid-imagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "templo torre"
+        "portal portal";
+    gap: 24px
+}
+
+.templo,
+.torre,
+.portal {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.templo {
+    background-image: url(../img/templo-mobile.png);
+    height: 254px;
+    grid-area: templo;
+}
+
+.torre {
+    background-image: url(../img/torre-mobile.png);
+    height: 254px;
+    grid-area: torre;
+}
+
+.portal {
+    background-image: url(../img/portal-mobile.png);
+    height: 182px;
+    grid-area: portal;
+}
