@@ -29,7 +29,8 @@
     grid-template-areas:
         "templo torre"
         "portal portal";
-    gap: 24px
+    gap: 24px;
+    padding: 24px 0 0 0;
 }
 
 .templo,
@@ -56,4 +57,61 @@
     background-image: url(../img/portal-mobile.png);
     height: 182px;
     grid-area: portal;
+}
+
+@media screen and (min-width:768px) {
+    .btn-pagamentos {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .artigo-pagamentos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .artigo-pagamentos>header {
+        width: 384px;
+        padding: 0 24px 0 0;
+    }
+
+    .parcelamento-texto {
+        width: 361px;
+    }
+
+    .artigo-pagamentos>footer {
+        width: 790px;
+    }
+
+    .templo,
+    .torre,
+    .portal {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .templo {
+        background-image: url(../img/templo-desktop.png);
+        height: 254px;
+        grid-area: templo;
+    }
+
+    .torre {
+        background-image: url(../img/torre-desktop.png);
+        height: 254px;
+        grid-area: torre;
+    }
+
+    .portal {
+        background-image: url(../img/torre-desktop.png);
+        height: 182px;
+        grid-area: portal;
+    }
+
+    .btn-pagamentos {
+        display: none;
+    }
 }
