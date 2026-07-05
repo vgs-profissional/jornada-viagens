@@ -1,11 +1,22 @@
+/* Rodapé página pacotes de viagens */
+.banner-roda-pacotes {
+    background-image: url(../img/banner-rodape-pacotes-mobile.png);
+}
+
+/* Rodapé página principal */
 .banner-rodape {
     background-image: url(../img/pre-rodape-mobile.png);
+}
+
+.banner-roda-pacotes,
+.banner-rodape {
     width: 100%;
     height: 400px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 .main-rodape {
     background-color: var(--cor-fundo-terciaria);
@@ -38,6 +49,13 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    /* Rodapé página pacotes de viagens */
+    .banner-roda-pacotes {
+        background-image: url(../img/banner-rodape-pacotes-tablet.png);
+    }
+
+    /* Rodapé página principal */
     .banner-rodape {
         background-image: url(../img/pre-rodape-tablet.png);
     }
@@ -48,6 +66,13 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+    /* Rodapé página pacotes de viagens */
+    .banner-roda-pacotes {
+        background-image: url(../img/banner-rodape-pacotes-tablet.png);
+    }
+
+    /* Rodapé página principal */
     .banner-rodape {
         background-image: url(../img/pre-rodape-desktop.png);
         height: 600px;
