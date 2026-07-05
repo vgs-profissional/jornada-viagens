@@ -63,6 +63,32 @@
     .btn-pagamentos {
         display: none;
     }
+
+    .templo,
+    .torre,
+    .portal {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .templo {
+        background-image: url(../img/templo-tablet.png);
+        height: 254px;
+        grid-area: templo;
+    }
+
+    .torre {
+        background-image: url(../img/torre-tablet.png);
+        height: 254px;
+        grid-area: torre;
+    }
+
+    .portal {
+        background-image: url(../img/portal-tablet.png);
+        height: 182px;
+        grid-area: portal;
+    }
 }
 
 @media screen and (min-width:1440px) {
@@ -106,7 +132,7 @@
     }
 
     .portal {
-        background-image: url(../img/torre-desktop.png);
+        background-image: url(../img/portal-desktop.png);
         height: 182px;
         grid-area: portal;
     }
